@@ -14,29 +14,29 @@
     <div id="calculator">
         <div id="display">1414</div>
         <div id="controls">
-            <button class="control">AC</button>
+            <button class="control" onclick="reset()">AC</button>
             <button class="control">+/-</button>
             <button class="control">%</button>
-            <button class="operation">/</button>
+            <button class="operation" onclick="enterOperator('/')">/</button>
 
-            <button class="num">7</button>
-            <button class="num">8</button>
-            <button class="num">9</button>
-            <button class="operation">*</button>
+            <button class="num" onclick="enterDigit(7)">7</button>
+            <button class="num" onclick="enterDigit(8)">8</button>
+            <button class="num" onclick="enterDigit(9)">9</button>
+            <button class="operation" onclick="enterOperator('*')">*</button>
 
-            <button class="num">4</button>
-            <button class="num">5</button>
-            <button class="num">6</button>
-            <button class="operation">-</button>
+            <button class="num" onclick="enterDigit(4)">4</button>
+            <button class="num" onclick="enterDigit(5)">5</button>
+            <button class="num" onclick="enterDigit(6)">6</button>
+            <button class="operation" onclick="enterOperator('-')">-</button>
 
-            <button class="num">1</button>
-            <button class="num">2</button>
-            <button class="num">3</button>
-            <button class="operation">+</button>
+            <button class="num" onclick="enterDigit(1)">1</button>
+            <button class="num" onclick="enterDigit(2)">2</button>
+            <button class="num" onclick="enterDigit(3)">3</button>
+            <button class="operation" onclick="enterOperator('+')">+</button>
 
-            <button class="num span2">0</button>
+            <button class="num span2" onclick="enterDigit(0)">0</button>
             <button class="num">.</button>
-            <button class="operation">=</button>
+            <button class="operation" onclick="enterOperator('=')">=</button>
         </div>
     </div>
 </body>

@@ -18,8 +18,8 @@ body {
 }
 
 #calculator {
-    width: 480px;
-    height: 620px;
+    width: 360px;
+    height: 480px;
     border: 4px solid rgb(46, 45, 45);
     background-color: rgb(46, 45, 45);
     display: flex;
@@ -28,9 +28,10 @@ body {
 
 #display {
     background-color: hsl(210, 24%, 70%);
-    /* height: 60px; */
+    height: 80px;
+    line-height: 70px;
     width: 100%;
-    padding: .2em .5em;
+    padding-inline: .5em;
     font-family: SevenSegment;
     font-weight: 500;
     font-size: 3.5rem;
